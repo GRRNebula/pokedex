@@ -5,11 +5,11 @@ import './App.css';
 
 
 function App() {
-  const pokepiclink = <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/683.png"/>
+  const pokemonpic = <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/683.png"/>
   return (
     <div className="App">
       <header className="App-header">
-      {pokepiclink}
+      {pokemonpic}
         Tervetulloo Pokedeksiini!
         <p>
           Всем привет!
