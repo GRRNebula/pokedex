@@ -7,7 +7,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-      <img href="https://assets.pokemon.com/assets/cms2/img/pokedex/full/683.png" />
+      <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/683.png" onload="javascript:showImage();"/>
+      
         <p>
           Всем привет!
         </p>
