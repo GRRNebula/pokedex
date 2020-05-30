@@ -1,14 +1,15 @@
 import React from 'react';
-//import logo from href="https://assets.pokemon.com/assets/cms2/img/pokedex/full/683.png"
+//import pokemonpic from src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/683.png"
 //import logo from './logo.svg';
 import './App.css';
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-      <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/683.png" onload="javascript:showImage();"/>
-      
+      <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/683.png"/>
+        Tervetulloo Pokedeksiini!
         <p>
           Всем привет!
         </p>
