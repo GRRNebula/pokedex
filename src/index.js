@@ -7,13 +7,13 @@ import 'semantic-ui-css/semantic.min.css'
 import { Button } from 'semantic-ui-react'
 
 ReactDOM.render(
-  <div>
-  <Button primary>Primary</Button>
-  <Button secondary>Secondary</Button>
-</div>,
- // <React.StrictMode>
-   // <App />
-  //</React.StrictMode>
+  <App/>,
+//  <div>
+  //  <h1>Testing...</h1>
+  //<Button primary>Primary</Button>
+  //<Button secondary>Secondary</Button>
+//</div>,
+ 
   document.getElementById('root')
 );
 
