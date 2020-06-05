@@ -3,9 +3,21 @@ import React from 'react';
 //import logo from './logo.svg';
 import './App.css';
 
+//const Linkki= 
+  //<a>
+    //      className="App-link"
+      //    href="https://vm.tiktok.com/KPmWRN/"
+        //  target="_blank"
+          //rel="noopener noreferrer"
+        
+        //  Suomipoikapokemon
+      //  </a>
+
+
+
 
 function App() {
-  const pokemonpic = <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/683.png"/>
+  const pokemonpic = <img src="aromatissepokemon.png"/>
   return (
     <div className="App">
       <header className="App-header">
@@ -14,14 +26,7 @@ function App() {
         <p>
           Всем привет!
         </p>
-        <a
-          className="App-link"
-          href="https://vm.tiktok.com/KPmWRN/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Suomipoikapokemon
-        </a>
+      
       </header>
     </div>
   );
