@@ -1,7 +1,6 @@
 import React from 'react';
-//import pokemonpic from src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/683.png"
-//import logo from './logo.svg';
 import './App.css';
+import PokedexHeader from './components/PokedexHeader'
 
 //const Linkki= 
   //<a>
@@ -14,20 +13,11 @@ import './App.css';
       //  </a>
 
 
-
-
 function App() {
   const pokemonpic = <img src="aromatissepokemon.png"/>
   return (
     <div className="App">
-      <header className="App-header">
-      {pokemonpic}
-        Tervetulloo Pokedeksiini!
-        <p>
-          Всем привет!
-        </p>
-      
-      </header>
+      <PokedexHeader author={'GRR'} nimi={"Pähkinä"}/>
     </div>
   );
 }
