@@ -6,14 +6,24 @@ import { Button, Segment } from 'semantic-ui-react'
 
 
 
-function App() {
+class App extends React.Component {
  // const pokemonpic = <img src="aromatissepokemon.png"/>
-  return (
-    <div className="App">
-      <PokedexHeader author={'GRR'} nimi={"Pähkinä"}/>
-       <Tiktokpokemon/>
-    </div>
-  );
+  constructor(props) {
+    super(props)
+    this.state = {
+      name: "Pähkinäinen"
+    }
+  }
+  render() { 
+    return (
+      <div className="App">
+        <PokedexHeader 
+          author={'GRR'} 
+          nimi={this.state.name}/>
+        <Tiktokpokemon/>
+      </div>
+    );
+  }
 }
 
 export default App;
